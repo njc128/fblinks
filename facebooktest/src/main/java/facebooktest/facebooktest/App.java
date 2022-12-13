@@ -22,10 +22,9 @@ public class App
     	Thread.sleep(5000);
     	
   List<WebElement> Links=	driver.findElements(By.tagName("a"));
-       for(int i=0; i<Links.size()-1;i++) {
-System.out.println(Links.get(i).getAttribute("href"));
+       
 
-    }
+    
 }
 
 }
